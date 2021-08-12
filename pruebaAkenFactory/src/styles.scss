@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "./app/app.component.scss";
+
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle at center,#3e467b 0%,#001f4c 100%)!important;
+}

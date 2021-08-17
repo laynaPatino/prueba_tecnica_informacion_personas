@@ -2,3 +2,20 @@ table {
     width: 100%;
     margin-top: 5%;
   }
+
+.mat-elevation-z8{
+  span{
+    position: relative;
+    width: inherit;
+  }
+}
+
+.container-button {
+  span {
+    font-size:2vw; 
+    color: white;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+}

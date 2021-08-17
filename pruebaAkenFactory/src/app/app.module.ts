@@ -48,6 +48,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { GestionarPersonasComponent } from './gestionar-personas/gestionar-personas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -58,6 +59,7 @@ import { GestionarPersonasComponent } from './gestionar-personas/gestionar-perso
     GestionarPersonasComponent,
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     A11yModule,

@@ -1,76 +1,24 @@
-.example-spacer {
-  flex: 1 1 auto;
-}
-
-.mat-toolbar{
-  background-color: #ffff;
-  padding: 8px;
-}
-
-.container_logo{
-  width: 20%;
-  height: 100%;
-  img{
-    width: fit-content;
-    width: -moz-fit-content;
-    height: 100%;
-    object-fit: contain;
-  };
-}
-
-.general_section{
-  width: 100%;
-  height: 90vh;
-  background-image: url(http://akenfactory.com//wp-content/uploads/2020/05/cyber-security-18.png);
-  span{
-    position: absolute;
-    right: 10px;
-    width:45%;
-    img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+.general_section {
+    width: 100%;
+    height: 90vh;
+    background-image: url(http://akenfactory.com//wp-content/uploads/2020/05/cyber-security-18.png);
+    span {
+      position: absolute;
+      right: 10px;
+      width:45%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .content_section {
+        width: 80%;
+        max-width: 1400px;
+        background-color: transparent;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
     }
   }
-}
-
-
-.example-button-row{
-  text-align: center;
-  position: absolute;
-  background-color: #ffff;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 30%;
-  height: 20%;
-  margin: auto;
-  z-index: 10;
-  border: #3e467b solid 5px;
-  button{
-    width: 100%;
-    height: 100%;
-  }
-  span{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-  }
-
-  .mat-button-wrapper{
-    height: fit-content;
-    height: -moz-fit-content;
-    color: #3e467b;
-    font-size: 3vw;
-    font-weight: bold;
-    &:hover{
-      opacity: .7;
-    }
-  }
-
-}

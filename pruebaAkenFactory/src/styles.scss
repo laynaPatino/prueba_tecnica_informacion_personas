@@ -1,5 +1,8 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "./app/app.component.scss";
+@import "./app/app-header/app-header.component.scss";
+@import "./app/gestionar-personas/gestionar-personas.component.scss";
+@import "./app/bandeja-personas/bandeja-personas.component.scss";
 
 html{
     min-height: 100%;
